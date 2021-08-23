@@ -5,21 +5,11 @@
     "EntryPoint": "/bin/app",
     "CmdArgs": [
         "--ScopeID",
-        "0ne0037046C"
+        "YOUR_SCOPEID"
     ],
     "Capabilities": {
         "AllowedConnections": [
-            "global.azure-devices-provisioning.net",
-            "iotc-01bea39d-8c42-42f0-935c-0c3442f346d5.azure-devices.net",
-            "iotc-d9769581-5b73-471a-bee8-1e2529881c19.azure-devices.net",
-            "iotc-70f2a588-e7f7-41da-af4f-0b09c4f25aad.azure-devices.net",
-            "iotc-1b548ecb-76e5-4bd5-b66a-1d3611fa239e.azure-devices.net",
-            "iotc-96182eac-928b-4afe-8a90-8add8bb8d55f.azure-devices.net",
-            "iotc-e90b5f62-3b28-442e-b9c8-7cbe5f74d15c.azure-devices.net",
-            "iotc-a33bbf47-8170-4a7c-a039-957f8a3d0934.azure-devices.net",
-            "iotc-28e0bb9a-ddd4-4333-92ab-c2ed5becae07.azure-devices.net",
-            "iotc-2fd0f534-61ba-45a0-adb6-147dfb408eda.azure-devices.net",
-            "iotc-2dc744dd-0b98-4890-990a-64df333e2dc2.azure-devices.net"
+            "global.azure-devices-provisioning.net YOUR_GLOBAL_ENDPOINTS"
         ],
         "Gpio": [
             "$AVNET_MT3620_SK_GPIO0",
@@ -35,7 +25,7 @@
         "WifiConfig": true,
         "NetworkConfig": false,
         "SystemTime": false,
-        "DeviceAuthentication": "43e5819f-b016-46d6-8364-3d7701be4362"
+        "DeviceAuthentication": "AZURE_SPHERE_TENANT"
     },
     "ApplicationType": "Default"
 }
