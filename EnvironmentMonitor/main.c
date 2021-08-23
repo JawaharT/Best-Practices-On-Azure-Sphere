@@ -36,12 +36,12 @@ static int buttonPollTimerFd = -1;
 static int buttonAGpioFd = -1;
 static int buttonBGpioFd = -1;
 
-// Struct contains sensor info from i2c
-sensor_var sensor_info;
-
 // Button state variables, initilize them to button not-pressed (High)
 static GPIO_Value_Type buttonAState = GPIO_Value_High;
 static GPIO_Value_Type buttonBState = GPIO_Value_High;
+
+// Struct contains sensor info from i2c
+sensor_var sensor_info;
 
 // Support functions.
 static int InitPeripheralsAndHandlers(void);

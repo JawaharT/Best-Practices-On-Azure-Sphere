@@ -12,4 +12,4 @@ azsphere_configure_api(TARGET_API_SET "10")
 add_executable (${PROJECT_NAME} main.c)
 target_link_libraries (${PROJECT_NAME} applibs pthread gcc_s c)
 
-azsphere_target_add_image_package(${PROJECT_NAME})
+azsphere_target_add_image_package(${PROJECT_NAME} DEBUG_LIB "libmalloc")

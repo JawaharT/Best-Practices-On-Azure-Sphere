@@ -5,11 +5,13 @@
     "EntryPoint": "/bin/app",
     "CmdArgs": [
         "--ScopeID",
-        "YOUR_SCOPEID"
+        "REPLACE_WITH_YOUR_AZURE_DPS_OR_IOT_CENTRAL_ID_SCOPE"
     ],
     "Capabilities": {
+        "HeapMemStats": true,
         "AllowedConnections": [
-            "global.azure-devices-provisioning.net YOUR_GLOBAL_ENDPOINTS"
+            "global.azure-devices-provisioning.net",
+            "REPLACE_WITH_YOUR_AZURE_IOT_HUB_OR_IOT_CENTRAL_URLS"
         ],
         "Gpio": [
             "$AVNET_MT3620_SK_GPIO0",
@@ -25,7 +27,7 @@
         "WifiConfig": true,
         "NetworkConfig": false,
         "SystemTime": false,
-        "DeviceAuthentication": "AZURE_SPHERE_TENANT"
+        "DeviceAuthentication": "REPLACE_WITH_YOUR_AZURE_SPHERE_TENANT_ID"
     },
     "ApplicationType": "Default"
 }
