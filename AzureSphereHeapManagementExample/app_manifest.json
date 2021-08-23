@@ -1,0 +1,11 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureSphereHeapManagementExample",
+  "ComponentId": "ec6e179d-5d34-4cf8-ad29-fb117f3e9967",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
